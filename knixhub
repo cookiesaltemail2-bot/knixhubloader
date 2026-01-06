@@ -43,6 +43,6 @@ local ThingsToLoad = Window:CreateTab("Load", 4483362458)
 local Button = ThingsToLoad:CreateButton({
 	Name = "Load BlindShot",
 	Callback = function()
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/cookiesaltemail2-bot/blindshotscript/refs/heads/main/mainscript?token=GHSAT0AAAAAADSOPRQO2DPWWG3VCGTUEW4S2K4KQRQ"))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/cookiesaltemail2-bot/blindshotscript/refs/heads/main/mainscript"))()
 	end,
 })
